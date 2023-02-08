@@ -1,0 +1,32 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/trono.jpg');
+    background-size: cover;
+
+    &__idiomas{
+        padding: 50px;
+    }
+    &__title{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+
+        h1{
+            display: flex;
+            font-size: 140px; 
+            font-weight: 40;
+            padding-left: 20%;
+            padding-right: 20%;
+        }    
+    }
+    &__navbar{
+        padding-bottom: 50px;
+    }
+}
+
+

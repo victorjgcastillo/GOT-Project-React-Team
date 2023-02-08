@@ -1,0 +1,26 @@
+.personajes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--buscador{
+      padding: 50px;
+    }
+    &--idiomas{
+      display: flex;
+      padding: 50px;
+    }
+  }
+}
+.simple-bar {
+  border-right: 1px solid grey;
+  width: 90%;
+  max-height: 65vh;
+  min-height: 100px;
+  margin: 50px auto;
+}

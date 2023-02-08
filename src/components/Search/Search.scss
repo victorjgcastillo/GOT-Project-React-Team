@@ -1,0 +1,21 @@
+.form{
+  padding-left: 10%;
+  
+    &--buscador{
+      background: url('../../assets/search.png') no-repeat 0px 8px;
+      background-size: 18px;
+      width: 500px;
+      border: transparent;
+      border-bottom: solid 1px black;
+      padding: 10px 10px 10px 30px;
+      outline: none;
+      filter: invert(100%); 
+      //cuidado con el invert
+      color: black;
+    }
+    &--buscador::placeholder{
+      color: grey; 
+    }
+  
+
+}

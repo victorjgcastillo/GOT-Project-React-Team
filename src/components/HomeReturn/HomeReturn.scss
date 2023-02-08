@@ -1,0 +1,11 @@
+.house{
+  display: flex;
+  justify-content: flex-end;
+
+  &--img{
+    width: 25px;
+    filter: invert(100%);
+    background-color: white;
+  }
+}
+

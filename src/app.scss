@@ -1,0 +1,21 @@
+@font-face {
+    font-family: GOT;
+    src: url('./assets/Game\ of\ Thrones.ttf');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    body{
+        background-color:#000000 ;
+      }
+}
+
+.app {
+    text-align: center;
+    background-color: black;
+    font-family: GOT;
+}

@@ -1,0 +1,50 @@
+.gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+
+
+  &--card{
+    display:flex;
+    max-width: 180px;
+    // max-height: 220px;
+    padding-bottom: 70px;
+    padding: 20px;
+
+    img{
+      width: 200px;
+      height: 320px;
+      object-fit: cover;
+    }
+    // .pad{
+    //   margin-top: -40px;
+    // }
+  }
+}
+.tooltip {
+  text-decoration:none;
+  position:relative;
+  justify-content: center;
+  }
+  .tooltip span {
+  display:none;
+  }
+  .tooltip span img {
+  float:center;
+  }
+  .tooltip:hover span {
+      width: 100%;
+      display:block;
+      justify-content: center;
+      position:absolute;
+      bottom: 0px;
+      overflow:hidden;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: rgba(0, 0, 0, 0.453);
+    }
+.navbar--characters{
+  z-index: 2;
+}

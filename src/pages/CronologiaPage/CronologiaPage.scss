@@ -1,0 +1,87 @@
+.cronologyandbtn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-cronology{
+  overflow-y: scroll;
+  height: 60vh;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  &::-webkit-scrollbar {
+    width: 5px;              /* anchura de toda la barra de desplazamiento */
+    
+  }
+  
+&::-webkit-scrollbar-track {
+    background: #b6aeae         /*color del área de seguimiento */
+  }
+  
+&::-webkit-scrollbar-thumb {
+    background-color: white;    /*  color del pulgar de desplazamiento*/
+    border-radius: 10px;       /*redondez del pulgar de desplazamiento*/
+   /*  border: 0px solid orange;  crea relleno alrededor del pulgar de desplazamiento*/
+  }
+
+  &--btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid 2px white;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  &--card{
+    height: 30rem;
+    width: 40%;
+    border-top: 2px solid rgb(255, 255, 255);
+    display:grid;
+    place-content: center;
+
+
+    &__img{
+      object-fit: cover;
+      object-position: top;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin: 0 170px 19px 150px;
+    }
+
+    &__age{
+      color:white;
+      text-align: center;
+      width: 27px;
+      height: 46px;
+      margin: 4px 170px 19px 179px;
+      font-family: 'GameofThrones';
+    }
+
+    &__name{
+      width: 400px;
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: white;
+      font-family: 'GameofThrones';
+    }
+  }
+}
+.cronologia{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 50px;
+}

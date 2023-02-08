@@ -1,0 +1,18 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 25px;
+  align-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+}

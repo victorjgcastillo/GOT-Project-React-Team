@@ -1,0 +1,11 @@
+.banderas{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+
+      &--img{
+          width: 40px;
+          padding-left: 15px;
+      }
+  }
